@@ -1,10 +1,10 @@
 # Анализ данных и прогнозирование рейтинга приложений в App Store [RU]
 #
-# Описание проекта:
+## Описание проекта:
 
 Данный проект охватывает анализ данных о приложениях в App Store с целью прогнозирования их пользовательских рейтингов. Мы используем набор данных, включающий информацию о различных параметрах приложений, таких как размер, цена, жанр и другие, чтобы создать модель машинного обучения и оценить ее производительность.
 
-# Инструкции по запуску кода:
+## Инструкции по запуску кода:
 
 Убедитесь, что у вас установлены все необходимые библиотеки, такие как pandas, numpy, matplotlib, и scikit-learn. Вы можете установить их с помощью pip:
 #
@@ -13,7 +13,7 @@ pip install pandas numpy matplotlib scikit-learn
 Загрузите набор данных. В данном случае, мы используем файл AppleStore.csv, который должен быть размещен в том же каталоге, где находится ваш код.
 
 
-# Описание кода:
+## Описание кода:
 
 1) Начинаем с импорта необходимых библиотек и загрузки данных из файла AppleStore.csv. Затем мы выбираем несколько колонок для анализа, включая числовые и категориальные признаки.
 
@@ -43,7 +43,7 @@ pip install pandas numpy matplotlib scikit-learn
 
 14) Оцениваем производительность моделей с помощью коэффициента детерминации R^2 и средней квадратической ошибки MSE.
 
-# Вывод:
+## Вывод:
 
 Обе модели показали низкое качество предсказаний на тестовых данных, что может быть связано с отсутствием сильных корреляций между признаками и целевой переменной.
 
@@ -56,11 +56,11 @@ pip install pandas numpy matplotlib scikit-learn
 
 # Data Analysis and App Store Rating Prediction [ENG]
 #
-# Project Description:
+## Project Description:
 
 This project involves data analysis of apps in the App Store with the aim of predicting their user ratings. We use a dataset containing information on various app parameters, such as size, price, genre, and more, to create a machine learning model and evaluate its performance.
 
-# Instructions for Running the Code:
+## Instructions for Running the Code:
 
 Make sure you have all the required libraries installed, such as pandas, numpy, matplotlib, and scikit-learn. You can install them using pip:
 #
@@ -69,7 +69,7 @@ pip install pandas numpy matplotlib scikit-learn
 Download the dataset. In this case, we use the AppleStore.csv file, which should be placed in the same directory as your code.
 
 
-# Code Overview:
+## Code Overview:
 
 1) Start by importing the necessary libraries and loading data from the AppleStore.csv file. We then select several columns for analysis, including numerical and categorical features.
 
@@ -99,7 +99,7 @@ Download the dataset. In this case, we use the AppleStore.csv file, which should
 
 14) Evaluate the performance of the models using the coefficient of determination R^2 and mean squared error (MSE).
 
-# Conclusion:
+## Conclusion:
 
 Both models showed low prediction quality on the test data, which may be due to the lack of strong correlations between features and the target variable.
 
